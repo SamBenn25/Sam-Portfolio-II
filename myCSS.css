@@ -4,7 +4,7 @@ body {
 	margin: 0 auto;
 }
 .homePage {
-	background: #000000;
+	background-image: url("https://static1.squarespace.com/static/54aa8545e4b0b365f7770c20/t/55fb4d32e4b040a2fa801d73/1442532659559/Free-Tileable-Dark-Wood-Pattern-For-website-background.jpg?format=1500w");
 }
 .container {
 	width: 960px;
@@ -21,7 +21,7 @@ body {
 	
 }
 .nav {
-	background-image: url("http://silviahartmann.com/background-tile-art/images/grunge-background-2.jpg");
+	background-image: url("http://www.myfreephotoshop.com/wp-content/uploads/2013/06/4711.jpg");
 	margin: 0px;
 	padding: 5;
 	float: left;
@@ -30,7 +30,7 @@ body {
 	text-align: center;
 }
 .content {
-	background-image: url("http://www.sanwebe.com/assets/public/images/background-patterns/bg63.gif");
+	background-image: url("https://d2gg9evh47fn9z.cloudfront.net/thumb_COLOURBOX1532002.jpg");
 	margin: 0px;
 	float: left;
 	width: 100%;
@@ -38,7 +38,7 @@ body {
 	text-align: center;
 }
 .footer {
-	background-image: url("http://silviahartmann.com/background-tile-art/images/grunge-background-2.jpg");
+	background-image: url("http://www.myfreephotoshop.com/wp-content/uploads/2013/06/4711.jpg");
 	margin: 0px;
 	float: left;
 	width: 100%;
