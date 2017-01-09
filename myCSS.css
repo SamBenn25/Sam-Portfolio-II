@@ -4,14 +4,14 @@ body {
 	margin: 0 auto;
 }
 .homePage {
-	background-image: url("https://static1.squarespace.com/static/54aa8545e4b0b365f7770c20/t/55fb4d32e4b040a2fa801d73/1442532659559/Free-Tileable-Dark-Wood-Pattern-For-website-background.jpg?format=1500w");
+	background-image: url("http://www.designbolts.com/wp-content/uploads/2013/02/Free-Tileable-Dark-Wood-Pattern-For-website-background.jpg");
 }
 .container {
 	width: 960px;
 	margin: 0 auto;
 }
 .header {
-	background: #AAAAAA;
+	background-image: url("https://d2gg9evh47fn9z.cloudfront.net/thumb_COLOURBOX1532002.jpg");
 	text-align: center;
 	margin: 0px;
 	padding: 5;
@@ -30,7 +30,7 @@ body {
 	text-align: center;
 }
 .content {
-	background-image: url("https://d2gg9evh47fn9z.cloudfront.net/thumb_COLOURBOX1532002.jpg");
+	background-image: url("http://freedesignfile.com/upload/2013/06/Seamless-pattern-5.jpg");
 	margin: 0px;
 	float: left;
 	width: 100%;
