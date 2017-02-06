@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<title>My Portfolio</title>
 	<link href="../myCSS.css" rel="stylesheet" type="text/css">
+<script src="../Scripts/swfobject_modified.js"></script>
 </head>
 <body>
 <div class="container">
@@ -14,14 +15,42 @@
   </div>
   <div class="nav">
     <h3><a href="../index.html" style="color: #ffffff">Home</a> | <a href="../raster/index.html" style="color: #ffffff">Photoshop</a> | <a href="../vector/index.html" style="color: #ffffff">Illustrator</a> | <a href="../audio/index.html" style="color: #ffffff">Audio</a> | <a href="../video/index.html" style="color: #ffffff">Video</a> | <a href="index.html" style="color: #ffffff">Animation</a></h3>
-   </div>
+  </div>
    <font color="black">
-  <div class="content">Animation Page<br>
+  <div class="content">
+    Animation Page<br>
+    <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="550" height="400">
+      <param name="movie" value="../doggolove.swf">
+      <param name="quality" value="high">
+      <param name="wmode" value="opaque">
+      <param name="swfversion" value="6.0.65.0">
+      <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+      <param name="expressinstall" value="../Scripts/expressInstall.swf">
+      <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+      <!--[if !IE]>-->
+      <object type="application/x-shockwave-flash" data="../doggolove.swf" width="550" height="400">
+        <!--<![endif]-->
+        <param name="quality" value="high">
+        <param name="wmode" value="opaque">
+        <param name="swfversion" value="6.0.65.0">
+        <param name="expressinstall" value="../Scripts/expressInstall.swf">
+        <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+        <div>
+          <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+          <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+        </div>
+        <!--[if !IE]>-->
+      </object>
+      <!--<![endif]-->
+    </object>
 </div>
   <div class="footer">
   <font color="white">
-     <h4><a href="https://plus.google.com/107593281571015721398/posts" style="color: #ffffff"> Contact at SamBenn25@gmail.com</a> | Copyright 2017</h4>
+    <h4><a href="https://plus.google.com/107593281571015721398/posts" style="color: #ffffff"> Contact at SamBenn25@gmail.com</a> | Copyright 2017</h4>
   </div>
 </div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>
 </body>
 </html>
